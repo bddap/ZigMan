@@ -1,0 +1,39 @@
+
+* {
+  margin: 0px;
+}
+
+body {
+  height:100%;
+  width:100%;
+  touch-action: none;
+}
+
+h3 {
+
+  align-self: center;
+  text-align: eight:10%;
+  padding-top: 1%;
+
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #999999;
+}
+
+.up {
+  width:10%;
+  height:70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.down {
+  width:10%;
+  height:70%;
+  display: inline-block;
+  vertical-align: middle;
+}

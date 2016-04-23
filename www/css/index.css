@@ -1,34 +1,31 @@
 
+* {
+  margin: 0px;
+}
+
 body {
   height:100%;
   width:100%;
+  touch-action: none;
 }
 
 h3 {
   align-self: center;
-  text-align: center;
-  padding-bottom: 1%;
+  text-align: eight:10%;
+  padding-top: 1%;
 }
 
 canvas {
-  width:90%;
-  height:90%;
-  align-self: center;
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
   background-color: #999999;
 }
 
 .up {
-  width:4%;
-  height:50%;
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
 }
 
 .down {
-  width:4%;
-  height:50%;
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
 }
